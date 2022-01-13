@@ -12,7 +12,7 @@ public class Product {
 
     private String productName;
     private double productCost;
-    private ProductType productType;
+    private ProductType productType; 
     private static final double BASE_TAX_RATE = 0.085;
 
     public Product(String name, double cost, ProductType type)
