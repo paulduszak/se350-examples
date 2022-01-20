@@ -19,7 +19,7 @@ public class Airport {
     }
 
     private void setName(String name) throws NullParameterException, BadParameterException {
-        if (name.equals(null)) {
+        if (name == null) {
             throw new NullParameterException("Airport name cannot be null.");
         }
 

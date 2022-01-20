@@ -18,7 +18,7 @@ public class Airline {
     }
 
     private void setName(String name) throws NullParameterException, BadParameterException {
-        if (name.equals(null)) {
+        if (name == null) {
             throw new NullParameterException("Airline name cannot be null.");
         }
 

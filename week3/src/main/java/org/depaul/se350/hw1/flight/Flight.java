@@ -33,7 +33,7 @@ public class Flight {
     }
 
     private void setDestination(Airport destination) throws NullParameterException {
-        if (destination.equals(null)) {
+        if (destination == null) {
             throw new NullParameterException("Destination cannot be null.");
         }
         this.destination = destination;
