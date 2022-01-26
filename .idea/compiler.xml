@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="week3-week3_main" target="1.8" />
+      <module name="week3-week3_test" target="1.8" />
       <module name="week3.main" target="1.8" />
       <module name="week3.test" target="1.8" />
+      <module name="week3.week3.main" target="1.8" />
+      <module name="week3.week3.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
