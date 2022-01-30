@@ -1,7 +1,7 @@
-package org.depaul.se350.abstractfactory;
+package org.depaul.se350.simplefactory;
 
-import org.depaul.se350.abstractfactory.aircraft.Aircraft;
-import org.depaul.se350.abstractfactory.aircraft.factory.USAircraftFactory;
+import org.depaul.se350.simplefactory.aircraft.Aircraft;
+import org.depaul.se350.simplefactory.aircraft.factory.USAircraftFactory;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.depaul.se350.abstractfactory.aircraft;
+package org.depaul.se350.simplefactory.aircraft;
 
 public class HeavyTransportCraft implements Aircraft {
     @Override

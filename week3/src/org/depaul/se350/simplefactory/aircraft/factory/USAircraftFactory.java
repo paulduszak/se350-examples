@@ -1,8 +1,8 @@
-package org.depaul.se350.abstractfactory.aircraft.factory;
+package org.depaul.se350.simplefactory.aircraft.factory;
 
-import org.depaul.se350.abstractfactory.aircraft.Aircraft;
-import org.depaul.se350.abstractfactory.aircraft.HeavyTransportCraft;
-import org.depaul.se350.abstractfactory.aircraft.LightTransportCraft;
+import org.depaul.se350.simplefactory.aircraft.Aircraft;
+import org.depaul.se350.simplefactory.aircraft.HeavyTransportCraft;
+import org.depaul.se350.simplefactory.aircraft.LightTransportCraft;
 
 public class USAircraftFactory {
     private USAircraftFactory() {
