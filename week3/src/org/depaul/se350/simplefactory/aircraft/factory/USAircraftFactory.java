@@ -8,7 +8,7 @@ public class USAircraftFactory {
     private USAircraftFactory() {
     }
 
-    public static Aircraft createAircraft(String type) {
+    public Aircraft createAircraft(String type) {
         if (type.equals("LightTransport"))
             return new LightTransportCraft();
         else if (type.equals("HeavyTransport"))

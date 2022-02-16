@@ -6,9 +6,6 @@ import org.depaul.se350.classdesignexample.exception.NullParameterException;
 import java.util.Objects;
 
 public class Product {
-    public enum ProductType {
-        PRINT, FOOD, HEALTH, GENERAL
-    }
 
     private String productName;
     private double productCost;
@@ -26,7 +23,7 @@ public class Product {
         return productName;
     }
 
-    private void setProductName(String pName) throws NullParameterException, BadParameterException {
+    private void setProductName(String pName) {
         if (pName == null) {
             throw new NullParameterException("Null value passed in for setProductName");
         }
